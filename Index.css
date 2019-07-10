@@ -1,0 +1,95 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center
+}
+p{
+    font-size: 20px;
+    text-align: center
+}
+img#upvote{
+    size: 500px;
+    width: 500px;
+    position: relative;
+    animation: animation2 3s;
+    z-index: -1;
+}
+img#downvote{
+    width: 500px;
+    position: relative;
+    animation: animation 3s;
+    z-index: -1;
+}
+main{
+    text-align: center
+}
+button{
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 14px 28px;
+    font-size: 20px;
+}
+@keyframes animation{
+    from{top: -825px;}
+    to{top: 0px;}
+}  
+@keyframes animation2{
+    from{bottom: -900px;}
+    to{bottom: 0px;}
+}
+
+body#lurker{
+    background-color: black;
+    color: white
+}
+img#poster{
+    width: 300px
+}
+body#poster{
+    background-color: darkslateblue;
+    color: white;
+}
+p#poster{
+    font-size: 30px
+}
+p#lurker{
+    font-size: 30px
+}
+p#whiteknight{
+    font-size: 30px
+}
+p#panel{
+    font-size: 25px
+}
+p#reddit{
+    font-size: 25px
+}
+button.button{
+    background-color: orange
+
+}
+body{
+background-color: black
+}
+#panel{
+    background-color:white;
+    width: 75%;
+    height:75%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 155px;
+}
+#posterpanel{
+    background-color: black;
+    width: 75%;
+    height: 75%;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 155px
+}
+#index{
+    background-color: white
+}

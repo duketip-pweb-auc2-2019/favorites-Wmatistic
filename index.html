@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+            <style>
+                    .button {
+                      display: inline-block;
+                      border-radius: 4px;
+                      background-color: #f4511e;
+                      border: none;
+                      color: #FFFFFF;
+                      text-align: center;
+                      font-size: 28px;
+                      padding: 20px;
+                      width: 200px;
+                      transition: all 0.5s;
+                      cursor: pointer;
+                      margin: 5px;
+                    }
+                    
+                    .button span {
+                      cursor: pointer;
+                      display: inline-block;
+                      position: relative;
+                      transition: 0.5s;
+                    }
+                    
+                    .button span:after {
+                      content: '\00bb';
+                      position: absolute;
+                      opacity: 0;
+                      top: 0;
+                      right: -20px;
+                      transition: 0.5s;
+                    }
+                    
+                    .button:hover span {
+                      padding-right: 25px;
+                    }
+                    
+                    .button:hover span:after {
+                      opacity: 1;
+                      right: 0;
+                    }
+                    </style>
+
+        <link rel="stylesheet" href="Index.css">
+
+        <link rel="icon" href="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?width=720&auto=webp&s=be9d031a2551b47bcd40ec45feec636d42a32127">
+
+        <title>
+            Reddit Project
+        </title>
+
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+
+    </head>
+
+    <header>
+
+        <h1>
+            Reddit and it's diverse ecosystem
+        </h1>
+
+    </header>
+<br>
+<br>
+    <main>
+            <h2>How Reddit works:</h2>
+
+           
+
+        <p id="reddit">Reddit works just like other social media apps, people post what they want and <br> then it can get liked or disliked or in this case Upvoted or Downvoted. if you get upvotes you also <br> gain karma which does nothing except for the ability to tell your friends that you have karma.</p>
+        
+        <body id="index">
+                <button class="button" style="vertical-align: middle" onclick="document.getElementById('id01').style.display='block'"><span>Show Panel</button></span>
+
+                <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
+                  <span onclick="this.parentElement.style.display='none'"
+                  class="w3-button w3-display-topright">X</span>
+                  <p id="panel">the way posting works in reddit is that when someone posts they have to post in a subreddit<br> and subreddits are based on different topics, there's multiple for memes but with<br> different topics and there's some for cats, depending on what your post is about will change<br> what subreddit you post in.</p>
+                  <p id="panel">Some more functions of Reddit are it's reward options, if you like a post or comment you can pay<br> real money for a badge then you can give it to another person.</p>
+                </div>
+
+                
+        
+
+        </body>
+
+        <hr>
+        <img id="upvote" src="https://discordemoji.com/assets/emoji/3388_Upvote.png" alt="upvote"> 
+        <img id="downvote" src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2014/12/downvote.png?quality=90&strip=all&zoom=1&resize=644%2C679&ssl=1" alt="downvote">
+        <br>
+        <br>
+        
+            <p>
+                <hr>
+                Species of Redditors:
+                <br>
+                <a href="Lurker.html">
+            <button class="button" style="vertical-align:middle"><span>Lurker</span></button>
+                </a>
+                <a href="Poster.html">
+                <button class="button" style="vertical-align: middle"><span> Poster</span></button>
+                </a>
+                <a href="White Knight.html">
+                <button class="button" style="vertical-align: middle"><span> White Knight</span></button>
+                </a>
+                <br>
+                <br>
+                <a href="https://reddit.com">
+                <button class="button" style="vertical-align: middle"><span>Reddit</span></button>
+                </a>
+
+                <hr>
+            </p>
+    </main>
+    <br>
+    <footer>
+        Property of John Matistic &copy;
+    </footer>
+
+</html>
